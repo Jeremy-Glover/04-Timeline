@@ -1,10 +1,23 @@
 .timeline {
   list-style: none;
   margin-left: 200px;
+  border: 0;
   border-left: #575bb4 solid 4px;
   border-image:
       linear-gradient(to bottom, #575bb4, #8e92f5) 1 100%;
+  position: relative;
+  max-width: 600px;
 }
-p {
+
+.where {
+  position: absolute;
+  right: 100%;
+  padding: 10px;
+}
+
+.info {
+  background: rgb(143, 166, 196);
+  color: white;
+  padding: 20px;
 
 }
